@@ -7,6 +7,8 @@
       <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/slider.css" rel="stylesheet">
 
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/bootstrap-slider.js"></script>
 </head>
@@ -34,10 +36,10 @@
         <li ><a href="#">Request form</a></li>
         <li class="active"><a href="#">Trumail!</a></li>
       </ul>
-       
+
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
-</nav>  
+</nav>
 
 
   <div class="container">
@@ -54,7 +56,7 @@ Dear John,<p>
 <p>
 I would like to  request a week of leave of absence for personal reasons.  If possible, I would like to leave work on July 1 and return on August  1.
 If approved, I will be traveling during this time period, but I would be glad to assist with any questions via email or phone.
-Thank you very much for your consideration.  
+Thank you very much for your consideration.
 <p>
 Sincerely,<br>
 Jane
@@ -63,8 +65,8 @@ Jane
 
 
 <div>
-              <p> <b> User feedback </b> </p> 
-               
+              <p> <b> User feedback </b> </p>
+
           <div class="col-md-6">
           Formal
             <div class="slider slider-horizontal" style="width: 140px;"><div class="slider-track"><div class="slider-selection" style="left: 0%; width: 100%;"></div><div class="slider-handle round" style="left: 60%;"></div><div class="slider-handle round hide" style="left: 0%;"></div></div><div class="tooltip top" style="top: -40px; left: 37.5px;"><div class="tooltip-arrow"></div><div class="tooltip-inner">Current value: 5</div></div><input type="text" class="span2" value="1" id="sl1" style=""> </div>
@@ -76,7 +78,7 @@ Jane
             <div class="slider slider-horizontal" style="width: 140px;"><div class="slider-track"><div class="slider-selection" style="left: 0%; width: 100%;"></div><div class="slider-handle round" style="left: 60%;"></div><div class="slider-handle round hide" style="left: 0%;"></div></div><div class="tooltip top" style="top: -40px; left: 37.5px;"><div class="tooltip-arrow"></div><div class="tooltip-inner">Current value: 5</div></div><input type="text" class="span2" value="1" id="sl1" style=""> </div>
           Good job!
                      </div>
-            
+
 
            <br>
            <br>
@@ -87,5 +89,9 @@ Jane
 </div>
 
 </form>
+
+<script type="text/javascript">
+  $('.slider').slider();
+</script>
 </body>
 </html>
